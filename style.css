@@ -9,7 +9,6 @@ header{
 }
 .skyhouse{
 	width: 115px;
-	height: 65px;
 	margin-top: 40px;
 	margin-left: 240px;
 }
@@ -20,12 +19,10 @@ a{
 	color:#FFFFFF;
 	font-size: 16px;
 	text-decoration: none;
+	vertical-align: middle;
 }
-nav, nav ul{
-	display: inline;
-}
-nav li{
-	display: inline;
+nav, nav ul, li{
+	display: inline-block;
 }
 .contact{
 	background-color:#FFFFFF;
@@ -35,6 +32,46 @@ nav li{
 	border-radius: 28px;
 }
 li{
-	margin:18px;
-	vertical-align: middle;
+	margin: 18px;
+}
+.middle-logo{
+	width: 1195px;
+	height: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	margin-top: -172px;
+}
+h2{
+	color: #171717;
+	font-size: 28px;
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.pictures{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+div > img{
+	margin: 25px;
+}
+p{
+	width: 951px;
+	font-size: 16px;
+	color: #171717;
+	text-align: center;
+	margin: auto;
+	padding: 18px;
+}
+.last{
+	color: #FFFFFF;
+	background-color: #0A22F4;
+	padding: 18px;
+	border-radius: 28px;
+	font-size: 16px;
+	line-height: 19px;
 }
